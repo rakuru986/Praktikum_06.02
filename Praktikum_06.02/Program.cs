@@ -18,6 +18,7 @@ namespace Praktikum_06._02
             CreateWebHostBuilder(args).Build().Run();
         }
 
+
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
